@@ -19,7 +19,7 @@ I design and build production-ready AI automation platforms with rigorous separa
 *Production-grade local AI orchestration middleware*
 
 **What it does:**
-- Persistent Go daemon listening on a socket, routing tasks through a Python orchestration layer
+- Persistent Go daemon running a continuous stdin readline loop, routing tasks through a Python orchestration layer
 - Capability-tagged agent registry (not flat name-to-path mapping)
 - Crash-isolated subprocess execution — agent failures never corrupt daemon or memory state
 - One process, many tasks, until explicit shutdown
